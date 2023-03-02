@@ -1,0 +1,160 @@
+.container .design .section1 {
+  background-image: url(../imgs/design_main.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.design .section1 h1 {
+  padding-top: 250px;
+  font-size: 50px;
+  color: #fff;
+  font-weight: 300;
+  margin-left: 1398px;
+}
+
+/* section2 */
+
+.section2,
+.section4 {
+  margin-left: 220px;
+  margin-top: 80px;
+}
+
+.section2 .title_box h2,
+.section4 .title_box h2 {
+  font-size: 30px;
+  color: #8a8a8a;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.section2 .title_box h3,
+.section4 .title_box h3 {
+  font-size: 60px;
+  color: #31577c;
+  font-weight: 500;
+}
+
+.section2 .img_box {
+  margin-top: 100px;
+}
+
+.box1 ul li {
+  overflow: hidden;
+  position: relative;
+}
+
+.box1 ul li .btn1 {
+  position: absolute;
+  top: 250px;
+  left: 280px;
+  z-index: 1;
+  width: 140px;
+  height: 40px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+.box1 ul li img:hover {
+  filter: brightness(50%);
+  transform: scale(1.04);
+  transition: 0.5s;
+}
+
+.section2 .img_box .box1:nth-child(2) {
+  margin-top: 140px;
+}
+
+.section2 .img_box .box1 ul {
+  display: flex;
+  gap: 30px;
+}
+
+.t_box {
+  margin-left: 20px;
+  width: 150px;
+}
+
+.img_title {
+  display: flex;
+  gap: 230px;
+}
+
+.t_box p:nth-child(1) {
+  font-size: 30px;
+  color: #31577c;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.t_box p:nth-child(2) {
+  font-size: 18px;
+  color: #8a8a8a;
+  font-weight: 500;
+}
+
+.btn_box .btn2 {
+  width: 140px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.25);
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn_box .btn2:hover {
+  text-decoration: underline;
+}
+
+/* section3 */
+
+.section3 {
+  margin-top: 190px;
+  background-image: url(../imgs/mid_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 260px;
+}
+
+.section3 p {
+  padding-top: 105px;
+  margin-left: 220px;
+  font-size: 40px;
+  color: #552a03;
+  font-weight: 500;
+}
+
+/* section4 */
+
+.section4 {
+  height: 1420px;
+}
+
+.banner_list ul {
+  margin-top: 80px;
+  display: flex;
+  gap: 106px;
+}
+
+.banner_list ul:nth-child(2) {
+  margin-top: 160px;
+}
+
+.banner_list ul li p {
+  margin-top: 20px;
+  color: #305578;
+  font-size: 30px;
+}

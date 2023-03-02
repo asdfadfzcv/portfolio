@@ -1,0 +1,25 @@
+/* main */
+
+.container .main {
+  background-image: url(../imgs/bg_main.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+  text-align: center;
+}
+
+.main .main_text {
+  padding-top: 410px;
+}
+
+.main .main_text p {
+  font-size: 80px;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.main .main_text .btn1 {
+  margin-top: 30px;
+}

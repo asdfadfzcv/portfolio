@@ -1,0 +1,132 @@
+/* top */
+
+.container .profile .top {
+  background-image: url(../imgs/top_img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.profile .top .head_text {
+  padding-top: 250px;
+  margin-left: 204px;
+}
+
+.profile .top .head_text p {
+  font-size: 50px;
+  color: #fff;
+  font-weight: lighter;
+}
+
+/* bottom */
+
+.container .profile .bottom {
+  background-image: url(../imgs/profile_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1010px;
+  display: flex;
+}
+
+.bottom_profile {
+  padding-top: 168px;
+  margin-left: 220px;
+}
+
+.bottom_profile h1 {
+  font-size: 24px;
+  color: #48727b;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.bottom_profile .text_box {
+  margin-top: 20px;
+}
+
+.bottom_profile .text_box h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bottom_profile .text_box h3 {
+  font-size: 18px;
+  color: #8a8a8a;
+  margin-top: 10px;
+}
+
+.bottom_profile .text_box p {
+  width: 260px;
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+/* career */
+
+.bottom .infor {
+  margin-left: 180px;
+  margin-top: 168px;
+}
+
+.bottom .infor .career h1,
+.bottom .infor .education h1,
+.bottom .infor .skill h1 {
+  font-size: 24px;
+  color: #48727b;
+  font-weight: 500;
+}
+
+.bottom .infor .career ul li {
+  margin-top: 20px;
+  display: flex;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* education */
+
+.bottom .infor .education {
+  margin-top: 100px;
+}
+
+.bottom .infor .education ul li {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* skill */
+
+.bottom .infor .skill {
+  margin-top: 100px;
+}
+
+.bottom .infor .skill ul {
+  display: flex;
+  gap: 108px;
+}
+
+.bottom .infor .skill ul h3 {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.bottom .infor .skill ul li p {
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+/* bottom img */
+
+.bottom_img {
+  margin-left: 160px;
+  margin-top: 156px;
+}
