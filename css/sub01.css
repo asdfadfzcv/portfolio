@@ -1,0 +1,148 @@
+/* top */
+
+.container .profile .top {
+  background-image: url(../imgs/top_img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1900px;
+  height: 500px;
+}
+
+.profile .top .head_text {
+  display: flex;
+  align-items: center;
+  height: 110%;
+  font-size: 50px;
+  color: #fff;
+  font-weight: lighter;
+  margin-left: 12%;
+}
+
+/* bottom */
+
+.container .profile .bottom {
+  width: 1460px;
+  height: 900px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  opacity: 0;
+  transform: translateY(50px);
+
+  /* 애니메이션 효과 */
+  animation-name: fade_in;
+  animation-duration: 1.5s;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.bottom_profile {
+  padding-top: 168px;
+}
+
+.bottom_profile h1 {
+  font-size: 24px;
+  color: #48727b;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.bottom_profile .text_box {
+  margin-top: 20px;
+}
+
+.bottom_profile .text_box h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bottom_profile .text_box h3 {
+  font-size: 18px;
+  color: #8a8a8a;
+  margin-top: 10px;
+}
+
+.bottom_profile .text_box p {
+  width: 260px;
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+/* career */
+
+.bottom .infor {
+  /* margin-left: 6%; */
+  margin-top: 168px;
+}
+
+.bottom .infor .career h1,
+.bottom .infor .education h1,
+.bottom .infor .skill h1 {
+  font-size: 24px;
+  color: #48727b;
+  font-weight: 500;
+}
+
+.bottom .infor .career ul li {
+  margin-top: 20px;
+  display: flex;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* education */
+
+.bottom .infor .education {
+  margin-top: 100px;
+}
+
+.bottom .infor .education ul li {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* skill */
+
+.bottom .infor .skill {
+  margin-top: 100px;
+}
+
+.bottom .infor .skill ul {
+  display: flex;
+  gap: 108px;
+}
+
+.bottom .infor .skill ul h3 {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.bottom .infor .skill ul li p {
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+/* bottom img */
+
+.bottom_img {
+  margin-top: 156px;
+}
+
+/* keyframes */
+
+@keyframes fade_in {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
