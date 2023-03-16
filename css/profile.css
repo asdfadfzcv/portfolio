@@ -1,0 +1,293 @@
+/* contents */
+.profile .sub_header {
+  background-image: url("../imgs/top_img.png");
+}
+
+.profile .content {
+  max-width: 1400px;
+  min-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 16px;
+  align-items: flex-start;
+  margin-top: 120px;
+}
+
+.profile .content .photo {
+  width: 260px;
+}
+.profile .content .info {
+  width: 580px;
+}
+.profile .content .bg {
+  min-width: 260px;
+}
+
+.profile .content .photo h1 {
+  font-size: 24px;
+  color: #48727b;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.profile .content .photo .text_box {
+  margin-top: 20px;
+}
+
+.profile .content .photo .text_box h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profile .content .photo .text_box h3 {
+  font-size: 18px;
+  color: #8a8a8a;
+  margin-top: 10px;
+}
+
+.profile .content .photo .text_box p {
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: 300;
+}
+.profile .content .photo img {
+  display: block;
+  width: 100%;
+}
+
+/* career */
+.profile .content .info .career h1,
+.profile .content .info .education h1,
+.profile .content .info .skill h1 {
+  font-size: 24px;
+  color: #48727b;
+  font-weight: 500;
+}
+
+.profile .content .info .career ul li {
+  margin-top: 20px;
+  display: flex;
+  gap: 16px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* education */
+.profile .content .info .education {
+  margin-top: 100px;
+}
+
+.profile .content .info .education ul li {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* skill */
+
+.profile .content .info .skill {
+  margin-top: 100px;
+}
+
+.profile .content .info .skill ul {
+  display: flex;
+  gap: 108px;
+}
+
+.profile .content .info .skill ul h3 {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.profile .content .info .skill ul li p {
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+/* media */
+
+@media (max-width: 1399.98px) {
+  .profile .content {
+    width: 70%;
+    min-width: initial;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .profile .content .photo {
+    width: 100%;
+  }
+  .profile .content .info {
+    width: 100%;
+  }
+  .profile .content .bg {
+    display: none;
+  }
+
+  .profile .content .photo h1 {
+    font-size: 36px;
+  }
+
+  .profile .content .photo .text_box {
+    margin-top: 20px;
+  }
+
+  .profile .content .photo .text_box h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .profile .content .photo .text_box h3 {
+    font-size: 24px;
+    color: #8a8a8a;
+    margin-top: 16px;
+  }
+
+  .profile .content .photo .text_box p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* career */
+  .profile .content .info .career h1,
+  .profile .content .info .education h1,
+  .profile .content .info .skill h1 {
+    font-size: 36px;
+    margin-top: 100px;
+  }
+
+  .profile .content .info .career ul li {
+    margin-top: 30px;
+    gap: 20px;
+    font-size: 20px;
+  }
+
+  /* education */
+  .profile .content .info .education {
+    margin-top: 100px;
+  }
+
+  .profile .content .info .education ul li {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+
+  /* skill */
+
+  .profile .content .info .skill {
+    margin-top: 100px;
+  }
+
+  .profile .content .info .skill ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+  }
+
+  .profile .content .info .skill ul h3 {
+    font-size: 24px;
+  }
+
+  .profile .content .info .skill ul li p {
+    font-size: 20px;
+  }
+}
+
+/* /////////////////////////////// */
+
+@media (max-width: 767.98px) {
+  .section {
+    margin-bottom: 0px;
+  }
+  .profile .content {
+    max-width: 70%;
+    min-width: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: initial;
+    margin-top: 40px;
+  }
+
+  .profile .content .photo {
+    width: 100%;
+    margin-bottom: initial;
+  }
+
+  .profile .content .photo h1 {
+    font-size: 24px;
+  }
+
+  .profile .content .photo .text_box h2 {
+    font-size: 20px;
+  }
+
+  .profile .content .photo .text_box h3 {
+    font-size: 18px;
+  }
+
+  .profile .content .photo .text_box p {
+    font-size: 16px;
+  }
+
+  .profile .content .info {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+  .profile .content .bg {
+    display: none;
+  }
+
+  .profile .content .photo img {
+    display: block;
+    width: 100%;
+  }
+
+  /* career */
+
+  .profile .content .info .career ul li {
+    margin-top: 20px;
+    display: block;
+  }
+
+  .profile .content .info .career h1,
+  .profile .content .info .education h1,
+  .profile .content .info .skill h1 {
+    font-size: 24px;
+  }
+
+  .profile .content .info .career ul li,
+  .profile .content .info .education ul li {
+    font-size: 16px;
+  }
+  .profile .content .info .career ul li p {
+    margin-bottom: 10px;
+  }
+
+  /* education */
+  .profile .content .info .education {
+    margin-top: 60px;
+  }
+
+  /* skill */
+
+  .profile .content .info .skill {
+    margin-top: 60px;
+  }
+
+  .profile .content .info .skill ul {
+    display: block;
+  }
+
+  .profile .content .info .skill ul h3 {
+    margin-top: 40px;
+    font-size: 18px;
+  }
+
+  .profile .content .info .skill ul li p {
+    font-size: 14px;
+  }
+}

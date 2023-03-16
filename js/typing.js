@@ -1,4 +1,6 @@
 $(function () {
+  // typing
+
   const text = "포트폴리오"
   const target = document.getElementById("typing_text")
 

@@ -7,9 +7,12 @@
     <title>portfolio</title>
 
     <!-- css -->
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
     <link rel="stylesheet" href="../css/common.css" />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/sub01.css" />
+    <link rel="stylesheet" href="../css/profile.css" />
     <link rel="stylesheet" href="../css/btns.css" />
     <!-- css -->
 
@@ -22,10 +25,6 @@
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
     />
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
-    />
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script
@@ -36,38 +35,35 @@
 
     <!-- script -->
     <script src="../js/common.js"></script>
-    <script src="../js/header.js"></script>
     <!-- script -->
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <div class="top_menu">
-          <p class="myName">
+        <div class="nav">
+          <h1 class="logo">
             <a href="../index.html">윤준</a>
-          </p>
-          <ul>
+          </h1>
+          <ul class="gnb">
             <li>
-              <a href="../pages/sub01.html">프로필</a>
-            </li>
-
-            <li>
-              <a href="../pages/sub02.html">디자인</a>
+              <a href="#x">프로필</a>
             </li>
             <li>
-              <a href="../pages/sub02_2.html">퍼블리싱</a>
+              <a href="./design.html">디자인</a>
+            </li>
+            <li>
+              <a href="./pub.html">퍼블리싱</a>
             </li>
           </ul>
+          <div class="bars"><i class="xi-bars"></i></div>
         </div>
       </div>
-      <div class="profile">
-        <div class="top">
-          <div class="head_text">
-            <p>프로필</p>
-          </div>
+      <div class="section profile">
+        <div class="sub_header">
+          <div class="head_title">프로필</div>
         </div>
-        <div class="bottom">
-          <div class="bottom_profile">
+        <div class="content">
+          <div class="photo">
             <h1>프로필</h1>
             <img src="../imgs/Rectangle 19.png" alt="" />
             <div class="text_box">
@@ -83,7 +79,7 @@
               <p>감사합니다.</p>
             </div>
           </div>
-          <div class="infor">
+          <div class="info">
             <div class="career">
               <h1>경력</h1>
               <ul>
@@ -118,24 +114,30 @@
                 <li>
                   <h3>1. 캐드</h3>
                   <p>-오토캐드</p>
-                  <p>-트라이본, 아베바마린</p>
+                  <p>-아베바마린</p>
+                  <p>-트라이본</p>
                 </li>
                 <li>
                   <h3>2. 그래픽</h3>
-                  <p>-포토샵, 일러스트레이터</p>
+                  <p>-포토샵</p>
+                  <p>-일러스트레이터</p>
                   <p>-피그마</p>
                 </li>
                 <li>
                   <h3>3. 프로그래밍</h3>
-                  <p>-HTML, CSS</p>
+                  <p>-HTML</p>
+                  <p>-CSS</p>
                   <p>-JAVAScript</p>
                 </li>
               </ul>
             </div>
           </div>
-          <div class="bottom_img">
+          <div class="bg">
             <img src="../imgs/profile_right.png" alt="" />
           </div>
+        </div>
+        <div class="gotop">
+          <i class="xi-angle-up-min"></i>
         </div>
       </div>
     </div>

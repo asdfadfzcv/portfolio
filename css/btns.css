@@ -19,7 +19,7 @@
 
 /* btn2 */
 
-.btn_box .btn2 {
+.btn2 {
   width: 140px;
   height: 40px;
   border-radius: 30px;
@@ -32,12 +32,12 @@
   cursor: pointer;
 }
 
-.btn_box .btn2:hover {
+.btn2:hover {
   text-decoration: underline;
 }
 
 /* btn3 */
-.btn_box .btn3 {
+.btn3 {
   width: 200px;
   height: 40px;
   border-radius: 30px;
@@ -50,6 +50,6 @@
   cursor: pointer;
 }
 
-.btn_box .btn3:hover {
+.btn3:hover {
   text-decoration: underline;
 }

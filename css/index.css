@@ -1,7 +1,7 @@
 /* main */
 
-.container .main {
-  background-image: url(../imgs/bg_main.png);
+.main {
+  background-image: url("../imgs/bg_main.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,6 +28,8 @@
   margin-top: 20px;
 }
 
+/* typing */
+
 .typing {
   display: inline-block;
   opacity: 0;
@@ -51,4 +53,12 @@
 
 .fade {
   opacity: 0.5;
+}
+
+/* media */
+
+@media (max-width: 767.98px) {
+  .main .main_text p {
+    font-size: 40px;
+  }
 }

@@ -1,4 +1,6 @@
 $(function () {
+  // header fixed
+
   const header = document.querySelector(".header")
   window.addEventListener("scroll", () => {
     header.style.position = "fixed"
