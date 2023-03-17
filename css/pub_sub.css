@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
 
 .pub_sub .sub_header {
-  background-image: url(../imgs/sub2_bg.png);
+  background-image: url("../imgs/sub2_bg.png");
 }
 
 .pub_sub_design {
@@ -136,10 +136,6 @@
 /* mobile */
 
 @media (max-width: 767.98px) {
-  .pub_sub .sub_header {
-    background-image: url(../imgs/sub2_bg.png);
-  }
-
   .pub_sub_design {
     max-width: 100%;
     min-width: initial;
