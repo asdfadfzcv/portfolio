@@ -165,19 +165,21 @@
   }
 
   .img_box {
+    margin: 0 auto;
     margin-top: 30px;
+    width: 80%;
   }
 
   .img_box img {
     margin-bottom: 30px;
   }
 
-  .btns .btn3 {
-    width: 100%;
-    margin-top: 30px;
+  .btns {
+    margin: 0 auto;
+    width: 80%;
   }
 
-  .intro_button .btn4 {
-    display: none;
+  .btns .btn3 {
+    margin-top: 30px;
   }
 }
