@@ -276,7 +276,7 @@
 
   .list img {
     display: block;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -336,7 +336,7 @@
   }
 
   .banner_list li img {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -344,7 +344,7 @@
     text-align: center;
     margin-top: 20px;
     color: #305578;
-    font-size: 20px;
+    font-size: 24px;
   }
 
   /* modal */
