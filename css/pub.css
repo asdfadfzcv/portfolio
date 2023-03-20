@@ -43,7 +43,6 @@
 }
 
 .pub_design .list li img:hover {
-  filter: brightness(50%);
   transform: scale(1.01);
 }
 
